@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What was the date of the first noted change?"/>
+    <EditText
+        android:id="@+id/etOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Answer here"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How old were you at this time?"/>
+    <EditText
+        android:id="@+id/etTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Answer here"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What were the first symptoms/signs?"/>
+    <EditText
+        android:id="@+id/etThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Answer here"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is there any family history of psychosis in the first degree? If so, who?"/>
+    <EditText
+        android:id="@+id/etFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Answer here"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Have you ever been on medication? If so, please state which."/>
+    <EditText
+        android:id="@+id/etFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Answer here"/>
+
+
+</LinearLayout>
+</ScrollView>

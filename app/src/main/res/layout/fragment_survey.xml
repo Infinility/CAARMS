@@ -1,0 +1,139 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:padding="8dp"
+    android:layout_weight="9">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey1_1"/>
+        <EditText
+            android:id="@+id/etOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer here"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey1_2"/>
+        <EditText
+            android:id="@+id/etTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer here"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey1_3"/>
+        <EditText
+            android:id="@+id/etThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer here"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey1_4"/>
+        <EditText
+            android:id="@+id/etFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer here"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey1_5"/>
+        <EditText
+            android:id="@+id/etFive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer here"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey1_6"/>
+        <EditText
+            android:id="@+id/etSix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer here"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey1_7"/>
+        <EditText
+            android:id="@+id/etSeven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer here"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey1_8"/>
+        <EditText
+            android:id="@+id/etEight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer here"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey1_9"/>
+        <EditText
+            android:id="@+id/etNine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer here"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey1_10"/>
+        <EditText
+            android:id="@+id/etTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer here"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/survey1_11"/>
+        <EditText
+            android:id="@+id/etEleven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer here"/>
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Submit"
+android:background="@color/colorPrimary"
+android:textColor="@android:color/white"
+android:textSize="14sp"
+android:padding="0dp"
+android:layout_marginLeft="-16dp"
+android:layout_marginRight="-16dp"
+android:layout_marginTop="-16dp"/>
+
+</LinearLayout>

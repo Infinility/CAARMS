@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:paddingTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_name"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etUsername"
+            android:hint="@string/signup_email_hint"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="12"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup_email"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmail"
+            android:hint="@string/signup_email_hint"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:maxLength="40"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pin"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPin"
+            android:layout_gravity="center_horizontal"
+            android:hint="@string/pin_hint"
+            android:password="true"
+            android:textAlignment="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="6"
+            android:numeric="integer"/>
+
+
+    </LinearLayout>
+</LinearLayout>
