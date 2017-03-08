@@ -36,6 +36,7 @@
     </string>
     <string name="login">Log In</string>
     <string name="signup">Sign Up</string>
+    <string name="incorrect">Incorrect Username/Pin</string>
 
 
     <!-- Welcome Screen -->
@@ -60,7 +61,7 @@
 
 
     <!-- Surveys -->
-    <string-array name="signupQuestions">
+    <string-array name="survey0">
         <item>What was the date that a change was first noted?</item>
         <item>How old were you?</item>
         <item>What were the first symptoms?</item>
@@ -69,172 +70,180 @@
         <item>Please state any medication used, past or present</item>
     </string-array>
 
-    <string-array name="survey1Questions">
-        <item>What was the date that a change was first noted?</item>
-        <item>How old were you?</item>
-        <item>What were the first symptoms?</item>
-        <item>Any history of first-degree relatives with psychosis?</item>
-        <item>If yes, please state who</item>
-        <item>Please state any medication used, past or present</item>
+    <string-array name="survey1">
+            <item>Have you had the feeling that something odd is going on that
+        you can’t explain? What is it like?</item>
+            <item>Do you feel puzzled by anything? Do familiar surroundings feel
+        strange?</item>
+            <item>Do you feel that you have changed in some way? How?</item>
+            <item>Do you feel that others, or the world, have changed in some
+        way?</item>
+            <item>Have you felt that
+        someone, or something, outside yourself has been controlling
+        your thoughts, feelings, actions or urges? Have you had
+        feelings or impulses that don’t seem to come from yourself?</item>
+            <item>Do you get any strange sensations in your
+        body? Do you know what causes them? Could it be due to
+        other people or forces outside yourself?</item>
+            <item>Have you felt that ideas or thoughts that are
+        not your own have been put into your head? How do you know
+        they are not your own? Where do they come from?</item>
+            <item>Have you ever felt that ideas or thoughts
+        are being taken out of your head? How does that happen?</item>
+            <item>Are your thoughts broadcast so that
+        other people know what you are thinking?</item>
+            <item> Can other people read your mind?</item>
+            <item> Have you felt that things that were
+        happening around you had a special meaning, or that people
+        were trying to give you messages? What is it like? How did it
+        start?</item>
     </string-array>
 
-    <string name="survey1_1">Have you had the feeling that something odd is going on that
-you can’t explain? What is it like?</string>
-    <string name="survey1_2">Do you feel puzzled by anything? Do familiar surroundings feel
-strange?</string>
-    <string name="survey1_3">Do you feel that you have changed in some way? How?</string>
-    <string name="survey1_4">Do you feel that others, or the world, have changed in some
-way?</string>
-    <string name="survey1_5">Have you felt that
-someone, or something, outside yourself has been controlling
-your thoughts, feelings, actions or urges? Have you had
-feelings or impulses that don’t seem to come from yourself?</string>
-    <string name="survey1_6">Do you get any strange sensations in your
-body? Do you know what causes them? Could it be due to
-other people or forces outside yourself?</string>
-    <string name="survey1_7">Have you felt that ideas or thoughts that are
-not your own have been put into your head? How do you know
-they are not your own? Where do they come from?</string>
-    <string name="survey1_8">Have you ever felt that ideas or thoughts
-are being taken out of your head? How does that happen?</string>
-    <string name="survey1_9">Are your thoughts broadcast so that
-other people know what you are thinking?</string>
-    <string name="survey1_10"> Can other people read your mind?</string>
-    <string name="survey1_11"> Have you felt that things that were
-happening around you had a special meaning, or that people
-were trying to give you messages? What is it like? How did it
-start?</string>
 
+    <string-array name="survey2">
+            <item> Has anybody been giving you a
+        hard time or trying to hurt you? Do you feel like people have
+        been talking about you, laughing at you, or watching you? What
+        is it like? How do you know this?</item>
+            <item> Do you feel you deserve punishment for anything
+        you have done wrong?</item>
+            <item>Have you had the feeling that something odd is
+        going on with your body that you can’t explain? What is it like?
+        Do you feel that your body has changed in some way, or that
+        there is a problem with your body shape?</item>
+            <item>Have you ever felt that you, or a part of you, did
+        not exist, or was dead? Do you ever feel that the world does not
+        exist?</item>
+            <item>Are you very religious? Have you had any
+        religious experiences?</item>
+            <item> Have you been feeling that you are especially
+        important in some way, or that you have powers to do things that
+        other people can’t do?</item>
+            <item>Is anyone in love with you? Who? How do
+        you know this? Do you return his/her feelings?</item>
+            <item>Are you a jealous person? Do you worry about
+        relationships that your spouse/girlfriend/boyfriend has with other
+        people?</item>
+    </string-array>
 
+    <string-array name="survey3">
+        <item>  Is there a change in the way things look to
+    you? Do things somehow look different, or abnormal? Are there
+    alterations in colour, or brightness of objects (things seeming
+    brighter, or duller in colour)? Are there alterations in the size and
+    shape of objects? Do things seem to be moving?</item>
+        <item>Do you have visions, or see things that may not
+    really be there? Do you ever see things that others can’t, or don’t
+    seem to? What do you see? At the time that you see these
+    things, how real do they seem? Do you realise they are not real
+    at the time, or only later?</item>
+        <item>Is there any change in the way things
+    sound to you? Do things somehow sound different, or
+    abnormal? Does your hearing seem more acute, or have
+    increased sensitivity? Does your hearing seem muted, or less
+    acute?</item>
+        <item>Do you ever hear things that may not really be
+    there? Do you ever hear things that other people seem not to
+    (such as sounds or voices)? What do you hear? At the time you
+    hear these things, how real do they seem? Do you realise they
+    are not real at the time, or only later?</item>
+        <item>Does your sense of smell seem to be
+    different, such as more, or less intense, than usual?</item>
+        <item>Do you ever smell things that other people don’t
+    notice? At the time, do these smells seem real? Do you realise
+    they are not real at the time, or only later?</item>
+        <item>Does your sense of taste seem to be
+    different, such as more, or less intense, than usual?</item>
+        <item>Do you ever get any odd tastes in your mouth?
+    At the time that you taste these things, how real do they seem?
+    Do you realise they are not real at the time, or only later?</item>
+        <item>Do you ever get strange
+    feelings on, or just beneath, your skin? At the time that you feel
+    these things, how real do they seem? Do you realise they are
+    not real at the time, or only later?</item>
+        <item>Do you ever get strange feelings in your
+    body (eg feel that parts of your body have changed in some way,
+    or that things are working differently)? Do you feel/think that
+    there is a problem with some part, or all of your body, i.e. that it
+    looks different to others, or is different in some way? How real
+    does this seem?</item>
+        <item>Have you noticed any change in your bodily
+    sensations, such as increased, or reduced intensity? Or unusual
+    bodily sensations such as pulling feelings, aches, burning,
+    numbness, vibrations? </item>
+    </string-array>
 
-    <string name="survey2_1"> Has anybody been giving you a
-hard time or trying to hurt you? Do you feel like people have
-been talking about you, laughing at you, or watching you? What
-is it like? How do you know this?</string>
-    <string name="survey2_2"> Do you feel you deserve punishment for anything
-you have done wrong?</string>
-    <string name="survey2_3">Have you had the feeling that something odd is
-going on with your body that you can’t explain? What is it like?
-Do you feel that your body has changed in some way, or that
-there is a problem with your body shape?</string>
-    <string name="survey2_4">Have you ever felt that you, or a part of you, did
-not exist, or was dead? Do you ever feel that the world does not
-exist?</string>
-    <string name="survey2_5">Are you very religious? Have you had any
-religious experiences?</string>
-    <string name="survey2_6"> Have you been feeling that you are especially
-important in some way, or that you have powers to do things that
-other people can’t do?</string>
-    <string name="survey2_7">Is anyone in love with you? Who? How do
-you know this? Do you return his/her feelings?</string>
-    <string name="survey2_8">Are you a jealous person? Do you worry about
-relationships that your spouse/girlfriend/boyfriend has with other
-people?</string>
+    <string-array name="survey4">
+        <item>Do you notice any difficulties with your speech, or ability
+    to communicate with others?</item>
+        <item>Do you have trouble finding the correct word at the
+    appropriate time? </item>
+        <item>Do you ever use words that are not quite right, or totally
+    irrelevant?</item>
+        <item>Have you found yourself going off on tangents when
+    speaking and never getting to the point? Is this a recent
+    change?</item>
+        <item>Are you aware that you are talking about irrelevant
+    things, or going off the track?</item>
+        <item>Do other people ever seem to have difficulty in
+    understanding what you are trying to say/trouble getting
+    your message across?</item>
+        <item>Do you ever find yourself repeating the words of others?</item>
+        <item>Do you ever have to use gesture or mime to
+    communicate due to trouble getting your message
+    across? How bad is this?</item>
+        <item>Does it ever make you want to stay silent and not say
+    anything?</item>
+        <item>Is it difficult to follow what the subject is saying at times
+    due to using incorrect words, being circumstantial or
+    tangential?</item>
+        <item>Is the subject vague, overly abstract or concrete? Can
+    responses be condensed?</item>
+        <item>Do they go off the subject often and get lost in their
+    words? Do they appear to have difficulty finding the right
+    words?</item>
+        <item>Do they repeat words that you have used or adopt
+    strange words (or ‘non-words’) in the course of regular
+    conversation?</item>
+    </string-array>
 
+    <string-array name="survey5">
+        <item>Have you been feeling angry, or irritable recently? Has there been a
+    reason for this? Have you felt more irritated than usual at small
+    things? Have you been in more arguments with others than usual
+    recently? Have you been taking more risks (i.e. when driving)
+    recently than usual? Have others commented that your behaviour is
+    becoming risky, or unsafe? Have you felt like striking out at people
+    or objects recently (more so than usual)?</item>
+        <item>Have you become so angry at someone that you have had thoughts
+    of hurting them, or destroying their property? Have you acted on
+    these thoughts?</item>
+        <item>Has the subject been acting in an aggressive or dangerous manner
+    recently? Have there been any recent episodes of anger
+    outbursts/physical confrontation? Is this how the subject normally
+    behaves? Have others commented on a change in their level of
+    anger, or irritability? Has the subject destroyed property lately (in
+    association with anger)? Have you felt safe with the subject recently
+    (i.e. when driving, at otherwise normal times)?</item>
+    </string-array>
 
-    <string name="survey3_1">  Is there a change in the way things look to
-you? Do things somehow look different, or abnormal? Are there
-alterations in colour, or brightness of objects (things seeming
-brighter, or duller in colour)? Are there alterations in the size and
-shape of objects? Do things seem to be moving?</string>
-    <string name="survey3_2">Do you have visions, or see things that may not
-really be there? Do you ever see things that others can’t, or don’t
-seem to? What do you see? At the time that you see these
-things, how real do they seem? Do you realise they are not real
-at the time, or only later?</string>
-    <string name="survey3_3">Is there any change in the way things
-sound to you? Do things somehow sound different, or
-abnormal? Does your hearing seem more acute, or have
-increased sensitivity? Does your hearing seem muted, or less
-acute?</string>
-    <string name="survey3_4">Do you ever hear things that may not really be
-there? Do you ever hear things that other people seem not to
-(such as sounds or voices)? What do you hear? At the time you
-hear these things, how real do they seem? Do you realise they
-are not real at the time, or only later?</string>
-    <string name="survey3_5">Does your sense of smell seem to be
-different, such as more, or less intense, than usual?</string>
-    <string name="survey3_6">Do you ever smell things that other people don’t
-notice? At the time, do these smells seem real? Do you realise
-they are not real at the time, or only later?</string>
-    <string name="survey3_7">Does your sense of taste seem to be
-different, such as more, or less intense, than usual?</string>
-    <string name="survey3_8">Do you ever get any odd tastes in your mouth?
-At the time that you taste these things, how real do they seem?
-Do you realise they are not real at the time, or only later?</string>
-    <string name="survey3_9">Do you ever get strange
-feelings on, or just beneath, your skin? At the time that you feel
-these things, how real do they seem? Do you realise they are
-not real at the time, or only later?</string>
-    <string name="survey3_10">Do you ever get strange feelings in your
-body (eg feel that parts of your body have changed in some way,
-or that things are working differently)? Do you feel/think that
-there is a problem with some part, or all of your body, i.e. that it
-looks different to others, or is different in some way? How real
-does this seem?</string>
-    <string name="survey3_11">Have you noticed any change in your bodily
-sensations, such as increased, or reduced intensity? Or unusual
-bodily sensations such as pulling feelings, aches, burning,
-numbness, vibrations? </string>
+    <string-array name="survey6">
+        <item>Have you had any thoughts recently about harming, or killing
+    yourself? How often have you felt this way?</item>
+        <item>Have you had any thoughts of what you would do to achieve
+    this?</item>
+        <item>Have you acted on those thoughts at all? What happened?</item>
+    </string-array>
 
-    <string name="survey4_1">Do you notice any difficulties with your speech, or ability
-to communicate with others?</string>
-    <string name="survey4_2">Do you have trouble finding the correct word at the
-appropriate time? </string>
-    <string name="survey4_3">Do you ever use words that are not quite right, or totally
-irrelevant?</string>
-    <string name="survey4_4">Have you found yourself going off on tangents when
-speaking and never getting to the point? Is this a recent
-change?</string>
-    <string name="survey4_5">Are you aware that you are talking about irrelevant
-things, or going off the track?</string>
-    <string name="survey4_6">Do other people ever seem to have difficulty in
-understanding what you are trying to say/trouble getting
-your message across?</string>
-    <string name="survey4_7">Do you ever find yourself repeating the words of others?</string>
-    <string name="survey4_8">Do you ever have to use gesture or mime to
-communicate due to trouble getting your message
-across? How bad is this?</string>
-    <string name="survey4_9">Does it ever make you want to stay silent and not say
-anything?</string>
-    <string name="survey4_10">Is it difficult to follow what the subject is saying at times
-due to using incorrect words, being circumstantial or
-tangential?</string>
-    <string name="survey4_11">Is the subject vague, overly abstract or concrete? Can
-responses be condensed?</string>
-    <string name="survey4_12">Do they go off the subject often and get lost in their
-words? Do they appear to have difficulty finding the right
-words?</string>
-    <string name="survey4_13">Do they repeat words that you have used or adopt
-strange words (or ‘non-words’) in the course of regular
-conversation?</string>
-
-    <string name="survey5_1">Have you been feeling angry, or irritable recently? Has there been a
-reason for this? Have you felt more irritated than usual at small
-things? Have you been in more arguments with others than usual
-recently? Have you been taking more risks (i.e. when driving)
-recently than usual? Have others commented that your behaviour is
-becoming risky, or unsafe? Have you felt like striking out at people
-or objects recently (more so than usual)?</string>
-    <string name="survey5_2">Have you become so angry at someone that you have had thoughts
-of hurting them, or destroying their property? Have you acted on
-these thoughts?</string>
-    <string name="survey5_3">Has the subject been acting in an aggressive or dangerous manner
-recently? Have there been any recent episodes of anger
-outbursts/physical confrontation? Is this how the subject normally
-behaves? Have others commented on a change in their level of
-anger, or irritability? Has the subject destroyed property lately (in
-association with anger)? Have you felt safe with the subject recently
-(i.e. when driving, at otherwise normal times)?</string>
-
-
-    <string name="survey6_1">Have you had any thoughts recently about harming, or killing
-yourself? How often have you felt this way?</string>
-    <string name="survey6_2">Have you had any thoughts of what you would do to achieve
-this?</string>
-    <string name="survey6_3">Have you acted on those thoughts at all? What happened?</string>
-
-
+    <array name="surveys">
+        <item>@array/survey0</item>
+        <item>@array/survey1</item>
+        <item>@array/survey2</item>
+        <item>@array/survey3</item>
+        <item>@array/survey4</item>
+        <item>@array/survey5</item>
+        <item>@array/survey6</item>
+    </array>
 
     <string-array name="signup_tabs">
         <item>Profile</item>

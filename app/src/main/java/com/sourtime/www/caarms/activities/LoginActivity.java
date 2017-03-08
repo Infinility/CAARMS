@@ -9,8 +9,10 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
 import android.support.design.widget.CoordinatorLayout;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -113,7 +115,18 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login(String e, String p){
+        int response = userManager.login(e,p,false,true);
+        Log.d(TAG,"response: " + response);
 
+        if (response == 0){
+            Intent i = new Intent(LoginActivity.this, AdminUserListActivity.class);
+            startActivity(i);
+        }else if (response == 1){
+            Intent i = new Intent(LoginActivity.this, WelcomeActivity.class);
+            startActivity(i);
+        }else if(response == 4) {
+            Snackbar.make(coordinatorLayout,R.string.incorrect, Snackbar.LENGTH_LONG).show();
+        }
     }
 
     @Override
